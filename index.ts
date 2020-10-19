@@ -4,7 +4,7 @@ import data from 'minecraft-data';
 export default class PluginBase {
     api: any;
     server?: mc.Server;
-    data;
+    data: data.IndexedData;
 
     constructor(api: any) {
         this.api = api;
@@ -20,9 +20,10 @@ export default class PluginBase {
             motd: 'Hello World!'
         });
 
-        this.server.on('login', (client) => {});
+        this.server.on('login', (client) => { });
     }
     public async onExit() {
-        this.server?.close();
+        if (this.server)
+            this.server.close();
     }
 }
