@@ -11,7 +11,7 @@ export default class PluginBase {
         this.data = data('1.16.3');
     }
 
-    public async onStart() {
+    public async onEnable() {
         this.server = mc.createServer({
             'online-mode': true,
             host: '0.0.0.0',
@@ -22,7 +22,7 @@ export default class PluginBase {
 
         this.server.on('login', (client) => { });
     }
-    public async onExit() {
+    public async onDisable() {
         if (this.server)
             this.server.close();
     }
