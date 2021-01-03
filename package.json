@@ -23,6 +23,7 @@
         "minecraft-protocol": "^1.17.0"
     },
     "devDependencies": {
+        "@jsprismarine/prismarine": "^0.1.0-rc.24",
         "@vercel/ncc": "0.25.1",
         "npm-pack-zip": "1.2.7",
         "renamer": "2.0.1"
