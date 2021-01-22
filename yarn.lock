@@ -53,7 +53,7 @@
   resolved "https://registry.yarnpkg.com/@jsprismarine/jsbinaryutils/-/jsbinaryutils-2.1.7.tgz#bd8559903dc50e89c7cb4d63e3767f8c5da06b0f"
   integrity sha512-nWa8MJDILpEHLAK394IhuHy8DlxGT5I3AKhnx1+LUDdgRxODJgyZK1ExLLL8z0amoSN8G+o9PTwtWIUmC22vtg==
 
-"@jsprismarine/prismarine@^0.1.0-rc.24":
+"@jsprismarine/prismarine@0.1.0-rc.24":
   version "0.1.0-rc.24"
   resolved "https://registry.yarnpkg.com/@jsprismarine/prismarine/-/prismarine-0.1.0-rc.24.tgz#23131ffac551f527b1f1a87838066fe2202fd205"
   integrity sha512-lO/PRW4PGNRnXLwSybO8JIKeMbBJDQ/1HlljQT6ftd8aXM0w/bAOWlbL1oetwwALe0D+qBoh4XcjCQNgHr4UVA==
