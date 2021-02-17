@@ -2,7 +2,7 @@
     "name": "big-brother",
     "version": "1.0.0",
     "description": "",
-    "main": "./dist/index.js",
+    "main": "./index.ts",
     "scripts": {
         "build": "ncc build ./index.ts -o ./dist/ --minify --no-cache",
         "archive": "npm-pack-zip",
@@ -19,8 +19,8 @@
     ],
     "license": "ISC",
     "dependencies": {
-        "minecraft-data": "^2.69.1",
-        "minecraft-protocol": "^1.17.0"
+        "minecraft-data": "^2.74.0",
+        "minecraft-protocol": "^1.23.1"
     },
     "devDependencies": {
         "@jsprismarine/prismarine": "0.1.0-rc.24",
