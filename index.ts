@@ -23,9 +23,11 @@ class Connection {
 
     public sendMessage(message: string) {
         this.client.write('chat', { message: JSON.stringify({
-            translate: "chat.type.announcement",
+            translate: "chat.type.text",
             with: [{
-                text: message
+                text: message.split(' ')[0]
+            }, {
+                text: message.replace(message.split(' ')[0], '')
             }]
         }), position: 0, sender: '0' })
     }
@@ -88,7 +90,7 @@ export default class PluginBase {
             player.playerConnection = new Connection(client) as any;
 
             player.username.name = client.profile.name;
-            player.uuid = client.profile.uuid;
+            player.uuid = 'bb_' + client.profile.uuid;
             player.xuid = 'bb_' + client.profile.xuid;
             this.api.getServer().getPlayerManager().addPlayer('', player);
 
