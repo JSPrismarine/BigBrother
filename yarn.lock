@@ -79,10 +79,10 @@
   resolved "https://registry.yarnpkg.com/@jsprismarine/jsbinaryutils/-/jsbinaryutils-2.1.8.tgz#ed2736f74b3751d8e92e202bc7564a288725b276"
   integrity sha512-LF/SoqxePoefpURkoDS5S7xxUcynTTXB/4QEqgFaiyylU+el1p9vJeqAG7OmtBvmb56lOimumHTUx62495al0A==
 
-"@jsprismarine/prismarine@0.1.0-rc.38":
-  version "0.1.0-rc.38"
-  resolved "https://registry.yarnpkg.com/@jsprismarine/prismarine/-/prismarine-0.1.0-rc.38.tgz#367468da61cdcd7bb205ed20a95083ba5f9bb903"
-  integrity sha512-BXzESmLTogp/ZduZcmkcWwb61cp8lKo/P9U+HSEcbV7ye/2nrKfYlZhZ3Kt1el8dOEE2iH9XMSBU3o4oUOCVJw==
+"@jsprismarine/prismarine@0.1.0-rc.41":
+  version "0.1.0-rc.41"
+  resolved "https://registry.yarnpkg.com/@jsprismarine/prismarine/-/prismarine-0.1.0-rc.41.tgz#140fb5e4e26c8e7bb3b7ab9c647774e8541d5a83"
+  integrity sha512-NIOe2V3Wg6fN5s6YptdBwU73E79XUAgu7pJKgHZn+TIUI0eDWMDxAB2jnzBJ8/Dqh6/bl+iAAU7ZUeXPpN3enQ==
   dependencies:
     "@beenotung/level-ts" "1.15.0"
     "@jsprismarine/bedrock-data" "1.16.204"
