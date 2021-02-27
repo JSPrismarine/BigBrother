@@ -1616,10 +1616,10 @@ npm-normalize-package-bin@^1.0.1:
   resolved "https://registry.yarnpkg.com/npm-normalize-package-bin/-/npm-normalize-package-bin-1.0.1.tgz#6e79a41f23fd235c0623218228da7d9c23b8f6e2"
   integrity sha512-EPfafl6JL5/rU+ot6P3gRSCpPDW5VmIzX959Ob1+ySFUuuYHWHekXpwdUZcKP5C+DS4GEtdJluwBjnsNDl+fSA==
 
-npm-pack-zip@1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/npm-pack-zip/-/npm-pack-zip-1.2.7.tgz#fa622f7f85f7705b6252810d5ff763c9c3665341"
-  integrity sha512-hnbp8OF0/Np+OpkIoEIKqo7EFcKMV/eMMzrRdB37bdqdbH5PDHVKv/9b8EhDvjrKDxDK/N9rmRoJFdB81JNoCg==
+npm-pack-zip@1.2.9:
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/npm-pack-zip/-/npm-pack-zip-1.2.9.tgz#d262e83fd66e0b52bd5abb1e4a18392bb597bdc4"
+  integrity sha512-IB5bGt8kSzIn4UsuYXT91+fLa5B59Xj7HDB+eRQO9tlX5f+Q5yK3s2eE6XA4Rm73tuD7BLFiXUiZilU763OBTg==
   dependencies:
     archiver-promise "^1.0.0"
     fs-extra "^5.0.0"
