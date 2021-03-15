@@ -67,10 +67,10 @@
   dependencies:
     yarnhook "^0.5.1"
 
-"@jsprismarine/color-parser@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jsprismarine/color-parser/-/color-parser-1.0.0.tgz#6fd6d4809a2c525ddc4bd75118d7d209babfdc5d"
-  integrity sha512-nQtNN5dxJSJ9HSs99E5eKnOhxWNqnXapSMNJcS6FPqLDuzAbK+YNWJ9FTi1zf2Ay9rWPeZmS2YiL0wMfPHqQTw==
+"@jsprismarine/color-parser@^0.1.0-rc.45":
+  version "0.1.0-rc.45"
+  resolved "https://registry.yarnpkg.com/@jsprismarine/color-parser/-/color-parser-0.1.0-rc.45.tgz#c4fa54f04892d17fbb16614dc1a964b74676f733"
+  integrity sha512-s6isMnZO45uKw0ovNOlUjN795rDapcBo/nbd3piaN3FDGh9g9oqdBYUhmQCCxGknTgsADTioRC+tk8xU/Qhadg==
   dependencies:
     chalk "^4.1.0"
 
@@ -79,17 +79,17 @@
   resolved "https://registry.yarnpkg.com/@jsprismarine/jsbinaryutils/-/jsbinaryutils-2.1.8.tgz#ed2736f74b3751d8e92e202bc7564a288725b276"
   integrity sha512-LF/SoqxePoefpURkoDS5S7xxUcynTTXB/4QEqgFaiyylU+el1p9vJeqAG7OmtBvmb56lOimumHTUx62495al0A==
 
-"@jsprismarine/prismarine@0.1.0-rc.41":
-  version "0.1.0-rc.41"
-  resolved "https://registry.yarnpkg.com/@jsprismarine/prismarine/-/prismarine-0.1.0-rc.41.tgz#140fb5e4e26c8e7bb3b7ab9c647774e8541d5a83"
-  integrity sha512-NIOe2V3Wg6fN5s6YptdBwU73E79XUAgu7pJKgHZn+TIUI0eDWMDxAB2jnzBJ8/Dqh6/bl+iAAU7ZUeXPpN3enQ==
+"@jsprismarine/prismarine@0.1.0-rc.45":
+  version "0.1.0-rc.45"
+  resolved "https://registry.yarnpkg.com/@jsprismarine/prismarine/-/prismarine-0.1.0-rc.45.tgz#28772b73c47735a8d41e071882f38f414953afc1"
+  integrity sha512-G082N1vZsBi9pAlQlRfEQ1kLMRUyw3HP45DaXyrSVvjqEYcykRmNfBHiYv8hZUcEU+FZuW/3Y0DPLVgsTBt4IQ==
   dependencies:
     "@beenotung/level-ts" "1.15.0"
     "@jsprismarine/bedrock-data" "1.16.204"
     "@jsprismarine/brigadier" "0.2.0-rc.1"
-    "@jsprismarine/color-parser" "1.0.0"
+    "@jsprismarine/color-parser" "^0.1.0-rc.45"
     "@jsprismarine/jsbinaryutils" "2.1.8"
-    "@jsprismarine/raknet" "2.0.0"
+    "@jsprismarine/raknet" "^0.1.0-rc.45"
     d3-interpolate "2.0.1"
     evt "1.9.12"
     fast-jwt "^1.0.0"
@@ -107,10 +107,10 @@
   optionalDependencies:
     pkg "github:kkoomen/pkg"
 
-"@jsprismarine/raknet@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@jsprismarine/raknet/-/raknet-2.0.0.tgz#a5935f7d514c312d8a31be18a49ae3dba052186f"
-  integrity sha512-vwK+coZbtHxFrzVPPSXIbbEYFwIHAjWeBVtUqEC5NS37IFA9V0TwlX51O3XvoOb4CLSI1eJiHkYbNFrXLfBzXA==
+"@jsprismarine/raknet@^0.1.0-rc.45":
+  version "0.1.0-rc.45"
+  resolved "https://registry.yarnpkg.com/@jsprismarine/raknet/-/raknet-0.1.0-rc.45.tgz#33fc56225fbf1cc87cf7eb4acc3721c950b61f38"
+  integrity sha512-BrRogG1/MBrqODpcsBibsvni8TmAewq7qjsMVdThwzrw5AvLJEhoj9/ajcurpQNcjVH1623WPvQ82QX0eT8Ifg==
   dependencies:
     "@jsprismarine/jsbinaryutils" "2.1.8"
 
