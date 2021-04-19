@@ -20,7 +20,7 @@
     "license": "ISC",
     "dependencies": {
         "minecraft-data": "^2.74.0",
-        "minecraft-protocol": "^1.23.1"
+        "minecraft-protocol": "^1.25.0"
     },
     "devDependencies": {
         "@jsprismarine/prismarine": "0.1.0-rc.49",
