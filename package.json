@@ -19,7 +19,7 @@
     ],
     "license": "ISC",
     "dependencies": {
-        "minecraft-data": "^2.74.0",
+        "minecraft-data": "^3.0.0",
         "minecraft-protocol": "^1.23.1"
     },
     "devDependencies": {
